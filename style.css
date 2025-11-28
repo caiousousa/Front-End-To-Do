@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#NavBar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #3CC58E;
+    width: 100%; 
+    height: 104px;
+
+    padding: 0 72px; 
+}
+
+
+#LogoNavBar {
+    width: 173px; 
+    height: 63px;
+
+}
+
+#NavLinks {
+
+    display: flex;
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+  
+    margin-left: auto; 
+}
+
+#NavLinks li {
+    padding: 0 20px; 
+}
+
+
+#NavLinks a { 
+    text-decoration: none;
+    color: white; 
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#IniciarSessaoBtn {
+
+    background-color: #FFAC13;
+    
+
+    padding: 15px 30px; 
+    border-radius: 42px;
+    
+  
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+    
+}
+
+
+#NavLinks a {    
+    
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+#IniciarSessão{
+    display: flex;
+    background-color: #FFAC13;
+    width: 168px;
+    height:76px;
+    border-radius: 42px;
+
+}
+
+#IniciarSessão a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+    padding-left: 8px;
+}
+
+
+#TelaInicial {
+  
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    min-height: calc(100vh - 104px); 
+    padding: 50px 72px;
+    background-color: white; 
+}
+
+
+#Texto {
+    width: 45%; 
+    text-align: left; 
+}
+
+#Texto h1 {
+    font-size: 3.5em; 
+    color: #343A40; 
+    margin-bottom: 20px;
+    line-height: 1.2; 
+}
+
+#Texto p {
+    font-size: 1.2em; 
+    color: #6C757D; 
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+#InscreverBotao {
+background-color: #6F42C1; 
+    color: white; 
+    border: none;
+    border-radius: 42px;
+    padding: 15px 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none; 
+    display: inline-block; 
+}
+
+#InscreverBotao:hover {
+    background-color: #5a34a3; 
+}
